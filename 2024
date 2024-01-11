@@ -8,13 +8,13 @@ Green Blue Deployment method
 
 Sample portfolio : https://rv2442.github.io/www.rahulvijan.tech/
 
-
 *Load Balancing Algorithms
 1.Static, Dynamic
 2.Round Robin, Weighted Round Robin
 3.Least Connections, Least Response Time
+4.The Power of 2 Random Choices, Consistent Hashing, Maglev Hashing : pending
 
-4.The Power of 2 Random Choices, Consistent Hashing, Maglev Hashing
-
-Free AI Courses
+*Free AI Courses
 https://www.classcentral.com/subject/ai
+
+*https://www.elementsofai.com Chapter 1.1
