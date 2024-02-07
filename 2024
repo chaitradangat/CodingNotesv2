@@ -69,11 +69,25 @@ https://www.simplilearn.com/pgp-cyber-security-certification-training-course?sou
   . Naive Bayes classification
 
 
-****https://www.elementsofai.com Chapter 4.1
+****https://www.elementsofai.com Chapter 4.1 completed
 Types of Machine Learning
   . Supervised Learning
   . Unsupervised Learning
   . Reinforcement Learning
   . Semi supervised Learning
+
+Supervised Learning
+  . Linear Regression / Just Regression
+  . Training Data
+  . Test Data
+  . Overfitting
+
+Unsupervised Learning
+  . Typical unsupervised learning methods attempt to learn some kind of “structure” underlying the data.(clustering)
+  . Generative modeling, Generative Adversarial Networks.
+
+
+
+.
 
 
