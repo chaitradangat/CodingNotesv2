@@ -88,6 +88,9 @@ Unsupervised Learning
 
 
 
-.
-
-
+Supervised Learning
+  . Nearest neighbor classifier
+  . Euclidean distance
+  . Defining what is "nearest"
+  . nnc is used in AI to sstudy user beahvior
+  . filter bubbles
