@@ -111,8 +111,14 @@ Neural Networks
 
   . Neural networks can process vast amounts of data simultaneously, unlike the CPU which executes instructions serially.
   . Neural networks can store and process the data at same time.
-  . 
 
+
+***https://course.elementsofai.com Chapter 5.2
+
+Neural Networks
+  . Have weights assigned to parameters or labels for calculation
+  . Sum of the weights multiplied by number of inputs is called the linear combination of the inputs.
+  . linear combination = intercept + (weight1 x input1) + (weight2 x input2) + (weight3 x input3) + (weight4 x input4)..
 
 
 
