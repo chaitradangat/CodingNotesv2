@@ -130,12 +130,15 @@ Artificial Neural Networks ANN
   . Hidden Layer -> Whose neurons take input from neurons from output of neurons of the previous layer.
   . Output Layer -> Layer of neurons which output the result.
 
-***https://course.elementsofai.com Chapter 5.3 pending
+***https://course.elementsofai.com Chapter 5.3 completed
 Advanced Neural Networks
   . Convolutional Neural Networks
   . CNNs can be added as a layer to existing neural network for increasing efficiency while processing image based inputs.
   . Generative Adversarial network - Combination of two networks - Generative network + Adversarial Network.
-  . 
+  . Attention mechanism -  Generative Pretrained Transformer(GPT).
+
+***https://course.elementsofai.com Chapter 6
+
 
   
 
