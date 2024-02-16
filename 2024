@@ -131,7 +131,11 @@ Artificial Neural Networks ANN
   . Output Layer -> Layer of neurons which output the result.
 
 ***https://course.elementsofai.com Chapter 5.3 pending
-  
+Advanced Neural Networks
+  . Convolutional Neural Networks
+  . CNNs can be added as a layer to existing neural network for increasing efficiency while processing image based inputs.
+  . Generative Adversarial network - Combination of two networks - Generative network + Adversarial Network.
+  . 
 
   
 
