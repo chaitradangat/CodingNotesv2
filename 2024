@@ -143,8 +143,7 @@ Advanced Neural Networks
   . Algorithmic Bias
   . 
 
-AZ 204 Azure Certification
-https://learn.microsoft.com/en-us/credentials/certifications/azure-developer/
+AZ 204 Azure Certification https://learn.microsoft.com/en-us/credentials/certifications/azure-developer/
 
 Azure app service
 
@@ -156,7 +155,8 @@ Azure app service
  . Deployment slots are live apps with their own host names.
 
 *App service plan tiers - Standard appservice plan, etc
+ . An App Service plan defines a set of compute resources for a web app to run.
 
+code> Cloud shell command  az webapp list-runtimes --os-type linux
 
-
-
+*AZ-204: Implement Azure App Service web apps Unit 2 of 9 completed
