@@ -146,6 +146,17 @@ Advanced Neural Networks
 AZ 204 Azure Certification
 https://learn.microsoft.com/en-us/credentials/certifications/azure-developer/
 
-  
+Azure app service
+
+*Autoscale
+ . Scale-up, Scale-down - increase or decrease cpu,ram,etc.
+ . Scale in - Scale out - increase or decrease number of instances.
+
+*Deployment slots
+ . Deployment slots are live apps with their own host names.
+
+*App service plan tiers - Standard appservice plan, etc
+
+
 
 
