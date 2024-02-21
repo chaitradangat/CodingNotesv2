@@ -160,3 +160,5 @@ Azure app service
 code> Cloud shell command  az webapp list-runtimes --os-type linux
 
 *AZ-204: Implement Azure App Service web apps Unit 2 of 9 completed
+
+https://medium.com/@aayyash/authentication-in-angular-why-it-is-so-hard-to-wrap-your-head-around-it-23ea38a366de
