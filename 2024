@@ -162,3 +162,25 @@ code> Cloud shell command  az webapp list-runtimes --os-type linux
 *AZ-204: Implement Azure App Service web apps Unit 2 of 9 completed
 
 https://medium.com/@aayyash/authentication-in-angular-why-it-is-so-hard-to-wrap-your-head-around-it-23ea38a366de
+
+*Azure Cloud Shell
+
+App service plan
+  . Shared compute
+  . Dedicated compute
+  . Isolated
+
+code> az webapp up
+
+*Research more on* Multi-tenant application, Single Tenant Application
+
+Find outbound IPs
+code> 
+az webapp show \
+    --resource-group <group_name> \ 
+    --name <app_name> \ 
+    --query possibleOutboundIpAddresses \
+    --output tsv
+
+*Unit 7 of 9 remaining in  AZ-204: Implement Azure App Service web apps / Explore Azure App Service 
+
