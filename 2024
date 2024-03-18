@@ -186,10 +186,13 @@ az webapp show \
 
 https://github.com/INNVTV/NetCore-Clean-Architecture
 
-*Unit 2 of 8 completed  AZ-204: Implement Azure App Service web apps / Configure web app settings 
+*Unit 8 of 8 (all) completed  AZ-204: Implement Azure App Service web apps / Configure web app settings 
 
 https://learn.microsoft.com/en-us/credentials/certifications/exams/az-204/
 
 Code to stream logs to azure cloud shell
 Code> az webapp log tail --name appname --resource-group myResourceGroup
+
+Intermediate certificates in the certificate chain.
+
 
