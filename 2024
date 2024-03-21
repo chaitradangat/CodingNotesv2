@@ -195,4 +195,5 @@ Code> az webapp log tail --name appname --resource-group myResourceGroup
 
 Intermediate certificates in the certificate chain.
 
+Hardware specifications are defined in the app service plan, which can then be used to scale in or scale out
 
