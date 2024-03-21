@@ -222,3 +222,7 @@ what are webhooks
 
 Unit 8 of 8 (all) completed AZ-204: Implement Azure App Service web apps / Scale apps in Azure App Service
 
+Automatic routing for releasing test feature or beta feature to sample of production users
+x-ms-routing-name=staging
+x-ms-routing-name=self
+
