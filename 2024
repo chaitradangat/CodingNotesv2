@@ -226,4 +226,17 @@ Automatic routing for releasing test feature or beta feature to sample of produc
 x-ms-routing-name=staging
 x-ms-routing-name=self
 
- Unit 8 of 8 (all) completed AZ-204: Implement Azure App Service web apps / Explore Azure App Service deployment slots 
+Unit 8 of 8 (all) completed AZ-204: Implement Azure App Service web apps / Explore Azure App Service deployment slots 
+
+
+Docker Deep Dive
+
+Docker Engine, Docker Runtime
+
+Docker daemon, Docker Client
+
+
+
+
+
+
