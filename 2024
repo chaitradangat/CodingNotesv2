@@ -229,11 +229,15 @@ x-ms-routing-name=self
 Unit 8 of 8 (all) completed AZ-204: Implement Azure App Service web apps / Explore Azure App Service deployment slots 
 
 
-Docker Deep Dive
+*Docker Deep Dive 29 of 419 completed
 
-Docker Engine, Docker Runtime
+*Docker Engine, Docker Runtime
 
-Docker daemon, Docker Client
+*Docker daemon, Docker Client
+
+*OCI Open Container Initiative specification
+ . image-spec
+ . runtime-spec
 
 
 
