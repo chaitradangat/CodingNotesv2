@@ -229,7 +229,7 @@ x-ms-routing-name=self
 Unit 8 of 8 (all) completed AZ-204: Implement Azure App Service web apps / Explore Azure App Service deployment slots 
 
 
-*Docker Deep Dive 29 of 419 completed
+**Docker Deep Dive 29 of 419 completed
 
 *Docker Engine, Docker Runtime
 
@@ -238,6 +238,26 @@ Unit 8 of 8 (all) completed AZ-204: Implement Azure App Service web apps / Explo
 *OCI Open Container Initiative specification
  . image-spec
  . runtime-spec
+
+**Docker Deep Dive 29 of 419 completed
+
+*Docker commands
+ . dockercli -Version
+ . docker image ls
+ . docker container ls
+ . docker system info
+ . docker version
+ . docker --version
+ . docker-compose --version
+ . docker-machine --version
+ . notary version - investigate which command is this
+
+* Best Practice - Do not install Docker under root user on Linux OS
+
+*After installing docker two major components are installed
+ . docker daemon / server / engine
+ . docker client
+
 
 
 
