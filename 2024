@@ -258,13 +258,25 @@ Unit 8 of 8 (all) completed AZ-204: Implement Azure App Service web apps / Explo
  . docker daemon / server / engine
  . docker client
 
-**Docker Deep Dive 63 of 419 completed
+**Docker Deep Dive 71 of 419 completed
 . docker container run -it ubuntu:latest /bin/bash - spins up new docker container and runs bash
 . docker container run -it microsoft/powershell:nanoserver pwsh.exe
 . docker container exec -it vigilant_borg bash - attach to running container
 . docker container exec -it pensive_hamilton pwsh.exe - attach to running container
 . docker container stop vigilant_borg - stop container
 . docker container rm vigilant_borg - delete or remove the docker container
+. Ctrl + PQ - exit container interactive shell
+. docker container ls -a - lists all containers even those which are stopped
+
+*Containerizing an app
+. docker build -t test:latest - run this command in the directory containing the app docker file
+. docker container run -d \
+  --name web1 \
+  --publish 8080:8080 \
+  test:latest - runs docker container from the image built with label test-latest
+. 
+
+
 
 
 
