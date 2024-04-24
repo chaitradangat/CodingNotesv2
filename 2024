@@ -258,7 +258,7 @@ Unit 8 of 8 (all) completed AZ-204: Implement Azure App Service web apps / Explo
  . docker daemon / server / engine
  . docker client
 
-**Docker Deep Dive 71 of 419 completed
+**Docker Deep Dive 80 of 419 completed
 . docker container run -it ubuntu:latest /bin/bash - spins up new docker container and runs bash
 . docker container run -it microsoft/powershell:nanoserver pwsh.exe
 . docker container exec -it vigilant_borg bash - attach to running container
@@ -274,9 +274,29 @@ Unit 8 of 8 (all) completed AZ-204: Implement Azure App Service web apps / Explo
   --name web1 \
   --publish 8080:8080 \
   test:latest - runs docker container from the image built with label test-latest
-. 
 
+*Docker Engine
+. Docker client
+. Docker daemon
+. containerd
+. runc
 
+*New Docker Architecture 
+. client 
+. daemon
+. containerd
+. shim - for daemonless containers when the daemon needs to be updated or maintained
+. runc
+
+*runc
+. It is implementation of OCI container runtime spec
+
+*containerd
+. used to manage the container life cycle
+. creates OCI compliant images from docker file / instructions passed by the daemon
+. the OCI compliant images are passed onto the runc to spin up new containers
+
+**Docker Deep Dive 80 of 419 completed
 
 
 
