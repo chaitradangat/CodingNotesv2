@@ -296,12 +296,12 @@ Unit 8 of 8 (all) completed AZ-204: Implement Azure App Service web apps / Explo
 . creates OCI compliant images from docker file / instructions passed by the daemon
 . the OCI compliant images are passed onto the runc to spin up new containers
 
-**Docker Deep Dive 80 of 419 completed
+**Docker Deep Dive 111 of 419 completed
 
 *Docker Images
 . images are build-time constructs as opposed to containers which are run-time constructs
 . image cannot be deleted until all containers running the image are removed
-. 
+. docker images are made of loosely connected layers
 
 *Containers do not contain their own kernel but use kernel shared by the Host OS
 
@@ -313,5 +313,12 @@ Unit 8 of 8 (all) completed AZ-204: Implement Azure App Service web apps / Explo
 . docker image ls--filter dangling=true
 . docker image prune -a - removes unused images with no attached container instances
 
-
 **Docker Deep Dive 93 of 419 completed
+
+*Docker Image
+. docker image inspect <imagename>
+. docker history <imagename>
+
+*Docker Container
+
+
