@@ -320,5 +320,14 @@ Unit 8 of 8 (all) completed AZ-204: Implement Azure App Service web apps / Explo
 . docker history <imagename>
 
 *Docker Container
+. Container is runtime instance of an image
+. Containers share the OS or kernel of the host they are running on
 
+*Docker container commands
+. docker container run <image> <commands>
+. docker container run ubuntu /bin/bash
+. container run-it microsoft/powershell:nanoserver pwsh.exe
+. docker container run alpine:latest sleep 10
+
+**Docker Deep Dive 113 of 419 completed
 
