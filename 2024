@@ -319,6 +319,8 @@ Unit 8 of 8 (all) completed AZ-204: Implement Azure App Service web apps / Explo
 . docker image inspect <imagename>
 . docker history <imagename>
 
+**Docker Deep Dive 116 of 419 completed
+
 *Docker Container
 . Container is runtime instance of an image
 . Containers share the OS or kernel of the host they are running on
@@ -329,5 +331,5 @@ Unit 8 of 8 (all) completed AZ-204: Implement Azure App Service web apps / Explo
 . container run-it microsoft/powershell:nanoserver pwsh.exe
 . docker container run alpine:latest sleep 10
 
-**Docker Deep Dive 113 of 419 completed
+. Host can be anything laptop, server, vm in cloud - which can run a vm or container
 
