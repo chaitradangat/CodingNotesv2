@@ -313,7 +313,7 @@ Unit 8 of 8 (all) completed AZ-204: Implement Azure App Service web apps / Explo
 . docker image ls--filter dangling=true
 . docker image prune -a - removes unused images with no attached container instances
 
-**Docker Deep Dive 93 of 419 completed
+**Docker Deep Dive 113 of 419 completed
 
 *Docker Image
 . docker image inspect <imagename>
@@ -331,5 +331,14 @@ Unit 8 of 8 (all) completed AZ-204: Implement Azure App Service web apps / Explo
 . container run-it microsoft/powershell:nanoserver pwsh.exe
 . docker container run alpine:latest sleep 10
 
-. Host can be anything laptop, server, vm in cloud - which can run a vm or container
+**Host can be anything laptop, server, vm in cloud - which can run a vm or container
+
+**Linux commands
+. usermod-aG docker <user> : add user to the docker user group
+
+*Docker container commands
+. docker container exec -it 3027eb644874 bash - reattach to container shell if the container is still running
+
+
+**Docker Deep Dive 123 of 419 completed
 
