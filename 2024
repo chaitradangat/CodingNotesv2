@@ -335,11 +335,32 @@ Unit 8 of 8 (all) completed AZ-204: Implement Azure App Service web apps / Explo
 
 **Linux commands
 . usermod-aG docker <user> : add user to the docker user group
+. systemlctl restart docker : restart docker
 
 *Docker container commands
 . docker container exec -it 3027eb644874 bash - reattach to container shell if the container is still running
 
 
-**Docker Deep Dive 123 of 419 completed
+**Docker Deep Dive 132 of 419 completed
 
 *Docker Container Life Cycle
+
+*Self healing containers with restart policy
+. always
+. unless-stopped
+. on-failed
+. docker container run --name cnt1 -it --restart always microsoft/powershell:nanosever
+
+
+
+
+
+
+
+
+
+
+
+
+
+
