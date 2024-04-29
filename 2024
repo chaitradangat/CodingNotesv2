@@ -372,8 +372,13 @@ Unit 8 of 8 (all) completed AZ-204: Implement Azure App Service web apps / Explo
 
 
 . docker image build -t web:latest . - builds docker image based on Dockerfile located at build context `.`
+. docker login
+. docker image tag web:latest nigelpoulton/web:latest  -> retag docker image with repo name before pushing
+. docker image push nigelpoulton/web:latest
 
 
+. # is used for adding comments in Dockerfile
+. docker image history <imagename>
 
 
 
