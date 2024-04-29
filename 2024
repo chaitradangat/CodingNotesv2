@@ -356,11 +356,22 @@ Unit 8 of 8 (all) completed AZ-204: Implement Azure App Service web apps / Explo
 . docker container run -d --name webserver -p 80:8080 nigelpoulton/pluralsight-docker-ci
 . port mappings are expressed as host-port:container:port
 . docker container rm $(docker container ls -aq) -f - forceremoves all containers which are running
-. 
+ 
+**Docker Deep Dive 145 of 419 completed
+
+*Jargon 
+. muti stage builds
+. Docker Compose, Docker Stacks
+
+*Dockerizing Applications
+. The directory containing the application is called the build context.
+. Its common practice to keep the docker file in the root directory of build context.
+. The name of `Dockerfile` is case-sensitive.
+. Dockerfile contains the instructions for the docker host engine to build image from the image file Dockerfile.
+. All docker files start with FROM keyword which forms the base layer for of the docker image
 
 
-
-
+. docker image build -t web:latest . - builds docker image based on Dockerfile located at build context `.`
 
 
 
