@@ -376,9 +376,30 @@ Unit 8 of 8 (all) completed AZ-204: Implement Azure App Service web apps / Explo
 . docker image tag web:latest nigelpoulton/web:latest  -> retag docker image with repo name before pushing
 . docker image push nigelpoulton/web:latest
 
+**Docker Deep Dive 158 of 419 completed
 
-. # is used for adding comments in Dockerfile
+. # is used for adding comments in Dockerfile, all non-commented lines are INSTRUCTIONS in docker
 . docker image history <imagename>
+
+*Multistage builds
+. COPY --from=storefront /usr/src/atsea/app/react-app/build/ .
+. COPY --from=appserver /usr/src/atsea/target/AtSea-0.0.1-SNAPSHOT.jar .
+. COPY --from command is used to only copy the application code from build images
+
+*Docker best practices
+. leverage the build cache
+. cache-hit : when the instructions are same older image with same instruction is re-used as an layer
+. cache-miss : new image is built
+. ignore the cache by passing --no-cache=true flag during build
+. --squash image which has multiple layers , however this disables sharing of the image as layers in other builds
+. apt-get install no-install-recommends - installs only the required packages
+
+*Docker commands
+. -t flag tags the image, and the -f flag lets you specify the name and location of the Dockerfile.
+
+
+**Docker Deep Dive 162 of 419 Chapter containerizing an app completed!
+
 
 
 
