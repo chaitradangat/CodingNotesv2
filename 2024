@@ -400,6 +400,23 @@ Unit 8 of 8 (all) completed AZ-204: Implement Azure App Service web apps / Explo
 
 **Docker Deep Dive 162 of 419 Chapter containerizing an app completed!
 
+*Deploying apps with docker compose
+. docker compose is an external tool sitting on top of the docker host to spin up multi container apps
+. single engine mode
+. swarm mode
+. docker-compose --version
+
+*Keys in the docker compose yaml file
+. version : version of docker compose file format
+. services : used to define various applications/services
+. each service is deployed in separate container
+. networks : networks key tells docker to create new network
+. by default bridge networks are used by docker to connect containers on the same host
+. volume : used by docker to create volumes / persistent storage
+
+**Docker Deep Dive 171 of 419 completed
+
+
 
 
 
