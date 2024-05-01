@@ -414,7 +414,15 @@ Unit 8 of 8 (all) completed AZ-204: Implement Azure App Service web apps / Explo
 . by default bridge networks are used by docker to connect containers on the same host
 . volume : used by docker to create volumes / persistent storage
 
-**Docker Deep Dive 171 of 419 completed
+**Docker Deep Dive 182 of 419 completed
+. docker network ls
+. docker volume ls
+. docker-compose down
+. docker-compose ps -a -> lists all running or stoppoed containers
+. docker-compose top - list processes running inside running containers
+. docker-compose stop - stops running containers
+. docker-compose restart
+
 
 
 
