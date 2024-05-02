@@ -417,14 +417,30 @@ Unit 8 of 8 (all) completed AZ-204: Implement Azure App Service web apps / Explo
 **Docker Deep Dive 182 of 419 completed
 . docker network ls
 . docker volume ls
+. docker compose up &
 . docker-compose down
 . docker-compose ps -a -> lists all running or stoppoed containers
 . docker-compose top - list processes running inside running containers
 . docker-compose stop - stops running containers
 . docker-compose restart
+. docker volume inspect counterapp_counter-vol | grep Mount
 
+**Docker Deep Dive 202 of 419 completed
+**Docker Swarm
+. swarm made of two components
+. secure cluster
+. orchestration engine
+. swarm cluster -> etcd database, service/tasks that wrap the worker, manager nodes
+. worker, manager nodes -> are docker hosts wrapped in service
 
-
+. docker swarm init --advertise-addr 10.0.0.1:2377 --listen-addr 10.0.0.1:2377
+. docker swarm join-token worker
+. docker swarm join-token manager
+. docker swarm update --autolock=true prevents earlier restarted managers from direct access to swarm
+. docker swarm unlock <key> to unlock swarm to add restarted node
+. docker service create --name web-fe -p 8080:8080 --replicas 5 nigelpoulton/pluralsight-docker-ci
+. docker service ls
+. docker service scale web-fe=10
 
 
 
