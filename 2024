@@ -445,7 +445,36 @@ Unit 8 of 8 (all) completed AZ-204: Implement Azure App Service web apps / Explo
 
 Itz Friday!!
 
-**Docker Deep Dive 202 of 419 completed
+**Docker Deep Dive 213 of 419 completed
+
+. docker servcie rm <servicename>
+. docker network create -d overlay uber-net
+. overlay creates new layer 2 network on top of underlying network(s)
+. docker network ls
+
+*publishing port on nodes modes
+. ingress mode
+. host mode
+
+. docker service update --image <imagename:new tag> --update-parallelism 2 --update-delay 20 uber-svc -> rolling update service two replicas at a time with delay of 20 sec
+. docker service logs <servicename> --log-driver <driverchoice json-file, journald, etc> -> displays logs from all replicas of the service
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
