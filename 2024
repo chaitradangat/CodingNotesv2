@@ -459,7 +459,7 @@ Itz Friday!!
 . docker service update --image <imagename:new tag> --update-parallelism 2 --update-delay 20 uber-svc -> rolling update service two replicas at a time with delay of 20 sec
 . docker service logs <servicename> --log-driver <driverchoice json-file, journald, etc> -> displays logs from all replicas of the service
 
-**Docker Deep Dive 216 of 419 completed
+**Docker Deep Dive 219 of 419 completed
 
 **Docker Networks
 . Container Network Model
@@ -471,9 +471,22 @@ Itz Friday!!
 . endpoint -> virtual ethernet interface (veth) , connects sandbox to networks
 . network -> software implementation of switch (802.1d bridge)
 
+**libnetwork
+. native service discovery
+. ingress-based container load balancing
+. network control plane
+. management plane
 
+*drivers
+. data plane
 
+*built in or local drivers
+. bridge
+. overlay
+. macvlan
 
+** Single-host bridge networks
+. 
 
 
 
