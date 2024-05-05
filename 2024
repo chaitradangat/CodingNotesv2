@@ -459,6 +459,17 @@ Itz Friday!!
 . docker service update --image <imagename:new tag> --update-parallelism 2 --update-delay 20 uber-svc -> rolling update service two replicas at a time with delay of 20 sec
 . docker service logs <servicename> --log-driver <driverchoice json-file, journald, etc> -> displays logs from all replicas of the service
 
+**Docker Deep Dive 216 of 419 completed
+
+**Docker Networks
+. Container Network Model
+. libnetwork -> docker's implementation of the CNM
+. drivers
+
+**Container Network Model
+. sandbox -> ethernet interface, ports, routing table, DNS config
+. endpoint -> virtual ethernet interface (veth) , connects sandbox to networks
+. network -> software implementation of switch (802.1d bridge)
 
 
 
