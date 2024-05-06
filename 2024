@@ -490,10 +490,18 @@ Itz Friday!!
 . docker network create-d bridge localnet
 . docker port web
 
-**Docker Deep Dive 230 of 419 completed
+**Docker Deep Dive 239 of 419 completed
 
 ** Multi host overlay networks
+. docker network create -d macvlan --subnet=10.0.0.0/24 --ip-range=10.0.0.0/25 --gateway=10.0.0.1 -o parent=eth0.100 macvlan100
 
+. docker container logs <containername> -> standalone container logs
+. docker service logs  <servicename> -> swarm container logs
+
+*Service Discovery
+. service discovery allows all swarm services and containers to find find each other by name given they are on the same network
+. under the hood dns resolver in each container and the embedded dns server helps with service discovery
+. docker container run -it --name c1 --dns=8.8.8.8 --dns-search=dockercerts.com alpine sh -> custom dns server
 
 
 
