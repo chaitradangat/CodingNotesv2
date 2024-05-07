@@ -503,7 +503,7 @@ Itz Friday!!
 . under the hood dns resolver in each container and the embedded dns server helps with service discovery
 . docker container run -it --name c1 --dns=8.8.8.8 --dns-search=dockercerts.com alpine sh -> custom dns server
 
-
+Tuesday!
 
 
 
