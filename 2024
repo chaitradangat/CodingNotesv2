@@ -490,7 +490,7 @@ Itz Friday!!
 . docker network create-d bridge localnet
 . docker port web
 
-**Docker Deep Dive 239 of 419 completed
+**Docker Deep Dive 230 of 419 completed
 
 ** Multi host overlay networks
 . docker network create -d macvlan --subnet=10.0.0.0/24 --ip-range=10.0.0.0/25 --gateway=10.0.0.1 -o parent=eth0.100 macvlan100
@@ -505,7 +505,14 @@ Itz Friday!!
 
 Tuesday!
 
+**Docker Deep Dive 243 of 419 completed
 
+*Ingress Load Balancing
+. docker swarm supports two publishing modes
+. ingress mode -> containers have access to each other even though the containers dont have same service
+. host mode -> only containers with same service have access to each other
+. docker network prune
+. docker network rm
 
 
 
