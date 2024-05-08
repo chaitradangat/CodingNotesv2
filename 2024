@@ -514,7 +514,16 @@ Tuesday!
 . docker network prune
 . docker network rm
 
+*The Kubernetes Book pg 18 of 308
+. container runtime interface -> to make different container provider technologies pluggable
+. containerd -> default kubernetes conatiner runtime
+. Kubernetes is both of the following : cluster, orchestrator
 
+*Kubernetes Cluster
+. contains one or more nodes that provide cpu, memory, other resources.
+. kubernetes cluster nodes are of two types :
+. control plane nodes -> must always be linux
+. worker nodes -> can be windows / linux
 
 
 
