@@ -525,11 +525,40 @@ Tuesday!
 . control plane nodes -> must always be linux
 . worker nodes -> can be windows / linux
 
+*The Kubernetes Book pg 22 of 308
 
+. control plane nodes implement Kubernetes intelligence
+. every cluster needs atleast one control plane node
+. control plane node -> api server, scheduler, controllers
+. worker nodes are for running applications
 
+*Services inside the control plane
 
+* API Server
+. All requests to change and query the state of cluster go through API Server.
+. All internal Kubernetes services communicate with each other via the API server.
+. API Server is the front end of Kubernetes
 
+* Deploying or updating an app using Kubernetes follows this process:
+1. Describe the requirements in a YAML configuration file
+2. Post the configuration file to the API server
+3. The request will be authenticated and authorized
+4. The updates will be persisted in the cluster store
+5. The updates will be scheduled to the cluster
 
+* Cluster Store
+. Cluster store holds desired states of all applications and cluster components
+. it is based on the etcd distributed database.
+. all control plane nodes have a copy of the etcd database
+
+*Kubernetes Controllers -> controller manager controls all controllers
+. Deployment Controller
+. Statefulset Controller
+. ReplicaSet Controller
+. controllers run as background watch loops re-conciling desired and actual states
+
+*Kubernetes scheduler
+. 
 
 
 
