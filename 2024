@@ -560,8 +560,44 @@ Tuesday!
 *Kubernetes scheduler
 . 
 
-**React and React Native Pg 26 of 606
+**React and React Native Pg 34 of 606
+. React Component API
+. React DOM API
+
+*React Component
+. lifecycle -> hooks
+. data
+. events
+. jsx
+
+*React Component -> Renderer -> Render Target
+. component -> react dom -> browser
+. component -> react native -> mobile device
+. component -> react desktop -> desktop/laptop
+.
+.
+.
+
+*Rendering with JSX
 . 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
