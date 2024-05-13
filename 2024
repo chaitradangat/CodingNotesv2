@@ -578,9 +578,11 @@ Tuesday!
 .
 .
 
-*Rendering with JSX
-. 
+**React and React Native Pg 38 of 606
 
+*Rendering with JSX
+. render() function takes jsx as argument
+. 
 
 
 
