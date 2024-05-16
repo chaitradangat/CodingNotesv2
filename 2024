@@ -584,8 +584,9 @@ Tuesday!
 . render() function takes jsx as argument
 . 
 
-
-
+**React and React Native Pg 43 of 606
+. React needs root element in the jsx for rendering
+. 
 
 
 
