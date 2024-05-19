@@ -586,10 +586,14 @@ Tuesday!
 
 **React and React Native Pg 43 of 606
 . React needs root element in the jsx for rendering
+. {this.props.children} is used to render the child component inside the custom component
+. React class attributes and namespaces
+
+**React and React Native Pg 54 of 606
+. array.map((i) => { })
+. Object.Keys(i).map((object) => {})
+. JSX Fragments using empty <> </> or <div> </div> in fragment custom component elements
 . 
-
-
-
 
 
 
