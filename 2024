@@ -589,14 +589,37 @@ Tuesday!
 . {this.props.children} is used to render the child component inside the custom component
 . React class attributes and namespaces
 
-**React and React Native Pg 54 of 606
+**React and React Native Pg 64 of 606
 . array.map((i) => { })
 . Object.Keys(i).map((object) => {})
 . JSX Fragments using empty <> </> or <div> </div> in fragment custom component elements
-. 
+. JSX : Javascript XML
 
+*Component Data
+. properties
+. state
+. context
 
+ state = {
+    first: false,
+    second: true,
+  };
+const { first, second } = this.state;
 
+//changging the state of the component using setTimeout()
+
+state = {
+    heading: "React Awesomesauce (Busy)",
+    content: "Loading...",
+  };
+const { heading, content } = this.state;
+
+setTimeout(() => {
+      this.setState({
+        heading: "React Awesomesauce",
+        content: "Done!",
+      });
+    }, 3000);
 
 
 
