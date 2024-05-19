@@ -621,8 +621,19 @@ setTimeout(() => {
       });
     }, 3000);
 
+*Default / static state properties
+
+static defaultProps = {
+    disabled: false,
+    text: "My Button",
+  };
+
+ const { disabled, text } = this.props;
+
+. properties are immutable unlike state which keeps changing all the time
 
 
+**React and React Native Pg 66 of 606
 
 
 
