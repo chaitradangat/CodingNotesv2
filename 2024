@@ -633,8 +633,16 @@ static defaultProps = {
 . properties are immutable unlike state which keeps changing all the time
 
 
-**React and React Native Pg 66 of 606
+**React and React Native Pg 72 of 606
+. component properties are declared inside the render function
+. component properties can be assigned via attributes when using the component in jsx
 
+* Stateless components
+. Pure functional components
+
+* Container components
+. Stateful components are called container components
+. Container components de-couple the data fetching from the component rendering using child components
 
 
 
