@@ -633,7 +633,7 @@ static defaultProps = {
 . properties are immutable unlike state which keeps changing all the time
 
 
-**React and React Native Pg 72 of 606
+**React and React Native Pg 84 of 606
 . component properties are declared inside the render function
 . component properties can be assigned via attributes when using the component in jsx
 
@@ -644,9 +644,36 @@ static defaultProps = {
 . Stateful components are called container components
 . Container components de-couple the data fetching from the component rendering using child components
 
+function fetchData() {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve(["First", "Second", "Third"]);
+    }, 2000);
+  });
+}
+
+. For data that is global to the application, you can use `context` to avoid lots of code being written to share data
+
+* React context
+. provider 
+. consumer
+
+ React.createContext("permissions");
+
+* React Hooks / LifeCycle
+. useState()
 
 
+. export default function App() {
+  const [name] = React.useState("Adam");
+  const [age] = React.useState(35);
+  return (
+    <>
+      <p>My name is {name}</p>
+      <p>My age is {age}</p>
+    </>
+  );
 
-
+ . array-destructuring syntax 
 
 
