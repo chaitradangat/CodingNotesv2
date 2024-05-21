@@ -676,7 +676,7 @@ function fetchData() {
 
  . array-destructuring syntax 
 
-**React and React Native Pg 85 of 606
+**React and React Native Pg 100 of 606
 * React Hooks / LifeCycle
 . useEffect()
 
@@ -698,7 +698,9 @@ function fetchData() {
   }
   }, [resolved]);
 
-. 
+. console.count('label');
+
+* Consume context data using hooks
 
 
 
