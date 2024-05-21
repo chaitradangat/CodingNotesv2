@@ -679,9 +679,29 @@ function fetchData() {
 **React and React Native Pg 85 of 606
 * React Hooks / LifeCycle
 . useEffect()
-.
-.
-.
+
+
+.  React.useEffect(() => {
+    fetchUser().then((user) => {
+     setId(user.id);
+      setName(user.name);
+      });
+    });
+
+. useEffect() hook is called after the component finishes rendering
+
+. const [resolved, setResolved] = useState(false);
+  useEffect(() => {
+  // ...the effect code...
+  return () => {
+    // ...the cleanup code that depends on "resolved"
+  }
+  }, [resolved]);
+
+. 
+
+
+
 
 
 
