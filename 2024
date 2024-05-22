@@ -679,7 +679,7 @@ function fetchData() {
 **React and React Native Pg 100 of 606
 * React Hooks / LifeCycle
 . useEffect()
-
+. React.UseContext()
 
 .  React.useEffect(() => {
     fetchUser().then((user) => {
@@ -702,7 +702,22 @@ function fetchData() {
 
 * Consume context data using hooks
 
+**React and React Native Pg 116 of 606
+. Reducer function
+. React.useReducer();
 
+
+.  const [{ name, age }, dispatch] =
+    React.useReducer(reducer, {
+    name: "",
+    age: "",
+   });
+
+
+**Handling state dependencies
+. 
+
+** Event handling in React
 
 
 
