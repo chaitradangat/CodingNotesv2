@@ -717,8 +717,25 @@ function fetchData() {
 **Handling state dependencies
 . 
 
+**React and React Native Pg 130 of 606
+
 ** Event handling in React
+. Multiple event Handlers
 
+. Generic event Handlers
 
+. import reverse from "./reverse";
+  onReverseClick = reverse.bind(this); -> binds class context to generic event handler using bind(this)
 
+. Higher order event handlers
+
+. Inline event handlers
+
+. Binding handlers to elements
+
+. Synthetic event objects
+
+. e.currentTarget
+
+* Crafting re-usable components
 
