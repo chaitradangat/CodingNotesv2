@@ -717,7 +717,7 @@ function fetchData() {
 **Handling state dependencies
 . 
 
-**React and React Native Pg 130 of 606
+**React and React Native Pg 151 of 606
 
 ** Event handling in React
 . Multiple event Handlers
@@ -738,4 +738,20 @@ function fetchData() {
 . e.currentTarget
 
 * Crafting re-usable components
+. const id = (function* () {
+  let i = 1;
+  while (true) {
+  yield i;
+  i += 1;
+  }
+  })();
+
+. id.next()
+
+. components which rely only on the property values can be converted to functional components
+
+. Render props
+
+
+
 
