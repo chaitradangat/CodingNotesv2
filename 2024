@@ -752,6 +752,16 @@ function fetchData() {
 
 . Render props
 
+**React and React Native Pg 162 of 606
+. Component trees
 
+*React component life cycle
+. render() is a lifecycle method in React
 
-
+. getDerivedStateFromProps()
+. render()
+. componentDidMount()
+. shouldComponentUpdate()
+. getSnapshotBeforeUpdate()
+. componentDidUpdate()
+. componentWillUnmount()
