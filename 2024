@@ -765,3 +765,12 @@ function fetchData() {
 . getSnapshotBeforeUpdate()
 . componentDidUpdate()
 . componentWillUnmount()
+
+
+**React and React Native Pg 172 of 606
+. new Promise((resolve, reject) => {
+
+. 
+
+
+
