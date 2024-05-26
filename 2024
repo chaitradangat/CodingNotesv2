@@ -765,12 +765,25 @@ function fetchData() {
 . getSnapshotBeforeUpdate()
 . componentDidUpdate()
 . componentWillUnmount()
+. componentDidCatch()
+. shouldComponentRender()
 
-
-**React and React Native Pg 172 of 606
+**React and React Native Pg 190 of 606
 . new Promise((resolve, reject) => {
 
+. React.createRef();
+. ReactDOM.flushSync(() => {});
+
+*Rendering imperative components
+
+*Cleaning up after components
+. cleaning up asynchronous calls
+.  import { Promise } from "bluebird";
+.  Promise.config({ cancellation: true });
+.  e.preventDefault();
+.  users().cancel();
+
+*Containing errors with error boundaries
 . 
 
-
-
+**React and React Native Pg 190 of 606
