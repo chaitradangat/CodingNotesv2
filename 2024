@@ -786,7 +786,7 @@ function fetchData() {
 *Containing errors with error boundaries
 . 
 
-**React and React Native Pg 193 of 606
+**React and React Native Pg 202 of 606
 
 *Validating Component Properties
 . predictable outcomes
@@ -799,11 +799,53 @@ function fetchData() {
 . import PropTypes from "prop-types";
 
 * Basic Type Validation
-. 
-. 
-. 
-. 
-.
-. 
+. () => "My Return Value";
+
+.  MyComponent.propTypes = {
+   myString: PropTypes.string,
+   myNumber: PropTypes.number,
+   myBool: PropTypes.bool,
+   myFunc: PropTypes.func,
+   myArray: PropTypes.array,
+   myObject: PropTypes.object,
+   };
+
+. MyComponent.propTypes = {
+  myString: PropTypes.string.isRequired,
+  myNumber: PropTypes.number.isRequired,
+  myBool: PropTypes.bool.isRequired,
+  myFunc: PropTypes.func.isRequired,
+  myArray: PropTypes.array.isRequired,
+  myObject: PropTypes.object.isRequired,
+  };
+  
+. MyComponent.propTypes = {
+  label: PropTypes.any,
+  value: PropTypes.any,
+  max: PropTypes.any,
+  };
+
+. MyComponent.propTypes = {
+  myHeader: PropTypes.element.isRequired,
+  myContent: PropTypes.node.isRequired,
+  };
+
+. <ul>
+  {myUsers.map((user) => (
+  <li key={user.id}>{user.name}</li>
+  ))}
+  </ul>
+
+. MyComponent.propTypes = {
+  myDate: PropTypes.instanceOf(Date),
+  myCount: PropTypes.oneOfType([PropTypes.string,
+    PropTypes.number]),
+  myUsers: PropTypes.arrayOf(PropTypes.instanceOf(MyUser)),
+  };
+
+**React and React Native Pg 205 of 606
+
+
+
 
 
