@@ -786,4 +786,24 @@ function fetchData() {
 *Containing errors with error boundaries
 . 
 
-**React and React Native Pg 190 of 606
+**React and React Native Pg 193 of 606
+
+*Validating Component Properties
+. predictable outcomes
+. in built property validators
+. custom validators
+. fail-fast architecture
+
+. using property validation in re-usable components
+. prop-types validation package for simple property validation
+. import PropTypes from "prop-types";
+
+* Basic Type Validation
+. 
+. 
+. 
+. 
+.
+. 
+
+
