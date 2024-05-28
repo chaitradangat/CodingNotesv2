@@ -843,7 +843,7 @@ function fetchData() {
   myUsers: PropTypes.arrayOf(PropTypes.instanceOf(MyUser)),
   };
 
-**React and React Native Pg 211 of 606
+**React and React Native Pg 222 of 606
 . const levels = new Array(10).fill(null).map((v, i) => i + 1);
 
 . MyComponent.propTypes = {
@@ -865,4 +865,16 @@ function fetchData() {
   ? null
   : new Error( '${component}.${name}: expecting number between 1 and 99'),
   };
+
+*React Routing
+. react-router package
+. import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+. import { Route, Outlet } from "react-router-dom";
+
+. import { useParams } from "react-router-dom";
+. <Route path="/users/:id" element={<UserContainer/>} />
+. const params = useParams();
+
+. Optional Parameters
+
 
