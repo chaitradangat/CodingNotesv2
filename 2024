@@ -904,7 +904,59 @@ function fetchData() {
 . import { useParams, useSearchParams } from "react-router-dom";
 
 * Code splitting using lazy components
+. lazy() api and Suspense component
+. create-react-app tool to create React applications
+.  React.useEffect(() => {
+    import("./MyComponent").then((module) => {
+      setMyComponent(() => module.default);
+    });
+  }, []);
+*** 
+const MyFeature = React.lazy(() => import("./MyFeature"));
+ 
+function MyPage() {
+  return (
+    <>
+      <h1>My Page</h1>
+      <MyFeature />
+    </>
+  );
+ }
+
+import MyPage from "./MyPage";
+ 
+function App() {
+  return (
+    <React.Suspense fallback={"loading..."}>
+      <MyPage />
+    </React.Suspense>
+  );
+ }
+***
+
+. Promise.all()
+. import { FadeLoader } from "react-spinners"; -> react spinners package
+
+*Lazy Pages and Routes
+
+
+**React and React Native Pg 243 of 606
+*Server side react components
 .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
