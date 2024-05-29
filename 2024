@@ -877,4 +877,36 @@ function fetchData() {
 
 . Optional Parameters
 
+. <Router>
+   <Routes>
+    <Route>
+     <Route/> <!-- child routes --!>
+    </Route>
+   </Routes>
+  </Router>
+
+**React and React Native Pg 229 of 606
+
+*Using link components
+. using basic links
+
+. import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  Link,
+  Outlet
+  } from "react-router-dom";
+
+. <Link to="first">First</Link>
+
+*Links with URL and query parameters
+. import { useParams, useSearchParams } from "react-router-dom";
+
+* Code splitting using lazy components
+.
+
+
+
+
 
