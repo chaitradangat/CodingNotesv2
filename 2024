@@ -942,16 +942,26 @@ function App() {
 
 **React and React Native Pg 243 of 606
 *Server side react components
-.
+. Isomorphic Javascript -> JS that can run in browser and node.js without modification
+******** server side rendering chapter has been skipped***********
 
+**React and React Native Pg 273 of 606
+**User Interface Framework Components[Material UI]
+. import Typography from "@mui/material/Typography";
+. import Container from "@mui/material/Container";
 
+. <Fragment>
+   <Container>
+     <Typography>
 
+*Responsive Layouts
+. Grid Component
+. <Grid container ... >
+    <Grid item .....>
+      <Paper .....>
 
-
-
-
-
-
+*Navigation Components
+. 
 
 
 
