@@ -963,6 +963,33 @@ function App() {
 *Navigation Components
 . 
 
+*Input Components
+. function toggleColor(setter, value) {
+  setter(value === "default" ? "primary" : "default");
+  }
+
+*Custom Theme
+. styled() function for components return new components
+. createTheme() ThemeProvider Component for entire App
+
+**React and React Native Pg 287 of 606 completed yaay!
+----------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
