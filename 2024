@@ -974,18 +974,46 @@ function App() {
 
 **React and React Native Pg 287 of 606 completed yaay!
 ----------------------------------------------------------------------------------------------------------
-**Learning React 2nd Edition Page 24 of 310
+**Learning React 2nd Edition Page 31 of 310
 . React dev tools, chrome extensions
 . yarn is an alternative to npm
 
 *Javascript for React
 . kangax compatibility table
 . let keyword is used to lmit the scope of Javascript variable
-. 
+. template strings, template literals, string templates
+. `${value1} some text ${value2}, ${value3} `
+. function expression
+  const foo = function () { 
+  //JS code;
+  }
+  foo();
+. function declaration
+  function foo(){
+  //JS code;
+  }
+
+. Arrow functions do not need function keyword and return keyword
+  const lordify = value1 => `${value1} of sometext`;
+. const lordify = (firstName, land) => `${firstName} of ${land}`;
+.  use round brackets after => when returning objects
+   const person = (firstName, lastName) => ({
+   first: firstName,
+   last: lastName
+   }); 
+
+. babel => javascript compiler to convert latest javascript features to javascript compatible with all browsers 
+
+. Destructuring objects
+
+.
+
+.
 
 
+.
 
-
+.
 
 
 
