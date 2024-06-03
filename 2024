@@ -1005,18 +1005,42 @@ function App() {
 . babel => javascript compiler to convert latest javascript features to javascript compatible with all browsers 
 
 . Destructuring objects
+. const obj1 = 
+  {
+   key1 : value1,
+   key2 : value2,
+   key3 : value3
+  }
+  const {key1,key2} = obj1;
+  let  {key1, key2} = obj1;
 
+**Learning React 2nd Edition Page 41 of 310
+
+*Destructuring Arrays
+.  const [firstAnimal] = ["Horse", "Mouse", "Cat"];
+   console.log(firstAnimal); // Horse
+
+.  Spread operator with objects
+   const morning = {
+   breakfast: "oatmeal",
+   lunch: "peanut butter and jelly"
+   };
+ 
+   const dinner = "mac and cheese";
+
+   const backpackingMeals = {
+   ...morning,
+   dinner
+   };
+
+*Asynchronous Javascript
+. Promise with fetch() function
+*Javascript classes
+. prototypical inheritance
+. Function or Classnames are start with capital letters in JS/React.
 .
-
 .
-
-
 .
-
-.
-
-
-
 
 
 
