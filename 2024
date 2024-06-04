@@ -1035,6 +1035,7 @@ function App() {
 
 *Asynchronous Javascript
 . Promise with fetch() function
+
 *Javascript classes
 . prototypical inheritance
 . Function or Classnames are start with capital letters in JS/React.
@@ -1042,12 +1043,23 @@ function App() {
 .
 .
 
+**Learning React 2nd Edition Page 45 of 310
+* Javascript Modules
+. usually there is one file per module
+. module can export multiple types
+. export default is used in place of export when only one type is exported from a module.
 
+**CommonJS way of writing modules
+. const print(message) => log(message, new Date())
+  const log(message, timestamp) =>
+  console.log(`${timestamp.toString()}: ${message}`}
+  module.exports = {print, log}
 
-
-
-
-
+*Functional programming with Javascript
+. 
+.
+.
+.
 
 
 
