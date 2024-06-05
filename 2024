@@ -1043,7 +1043,7 @@ function App() {
 .
 .
 
-**Learning React 2nd Edition Page 57 of 310
+**Learning React 2nd Edition Page 61 of 310
 * Javascript Modules
 . usually there is one file per module
 . module can export multiple types
@@ -1061,7 +1061,39 @@ function App() {
 . Array.filter() function is immutable and returns new array.
 . Array.map() returns an array after performing operation on each element of the source array.
 . Object.keys <- returns all keys of an js object
+. Array.reduce(), Array.reduceRight()
 . 
+. Currying functional technique
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
