@@ -1076,10 +1076,13 @@ function App() {
 . 
 
 *React with JSX
-.
-.
-.
-.
+. In JSX the type of element is described by tag
+. The attributes of the element are React Properties
+. Any children are added in between the opening and closing tags
+
+**Learning React 2nd Edition Page 96 of 310
+. className used instead of class since class is reserved word in javascript
+. 
 
 
 
