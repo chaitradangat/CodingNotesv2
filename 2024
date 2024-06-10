@@ -1080,14 +1080,25 @@ function App() {
 . The attributes of the element are React Properties
 . Any children are added in between the opening and closing tags
 
-**Learning React 2nd Edition Page 97 of 310
+**Learning React 2nd Edition Page 110 of 310
 . className used instead of class since class is reserved word in javascript
 **React Fragments
 . <React.Fragment> </React.Fragment>
 . <> </>
 
+.   import React from "react";
+    
+    //Here amount, measurement, name are the properties(props) of the Ingredient component
 
+    export default function Ingredient({ amount, measurement, name }) {
+    return (
+    <li>
+    {amount} {measurement} {name}
+    </li>
+    );
+    }
 
+. Create React App tooling
 
 
  
