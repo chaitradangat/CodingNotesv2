@@ -1098,10 +1098,17 @@ function App() {
     );
     }
 
-. Create React App tooling
+*Create React App tooling
 
-
- 
+**Learning React 2nd Edition Page 117 of 310 completed
+*React state management
+. npm i react-icons
+. import { FaStar } from "react-icons/fa";
+. <Fastar color="red"></Fastar>
+. useState hook
+. Hooks contain re-usable code which is seperate from the component logic.
+. useState returns an array we can use the array destructuring to map first value to variable
+. const [selectedStars] = useState(3);
 
 
 
