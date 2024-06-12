@@ -1110,8 +1110,10 @@ function App() {
 . useState returns an array we can use the array destructuring to map first value to variable
 . const [selectedStars] = useState(3);
 
-
-
+**Learning React 2nd Edition Page 123 of 310 completed
+. Passing state data from root component to child component via properties.
+.
+.
 
 
 
