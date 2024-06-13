@@ -1115,7 +1115,9 @@ function App() {
 .
 .
 
-
+* Sending interactions back up the component tree
+. using functions which are passed up the child components to root components with properties.
+. React Forms using ref/ useRef();
 
 
 
