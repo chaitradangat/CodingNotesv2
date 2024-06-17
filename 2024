@@ -1110,7 +1110,7 @@ function App() {
 . useState returns an array we can use the array destructuring to map first value to variable
 . const [selectedStars] = useState(3);
 
-**Learning React 2nd Edition Page 123 of 310 completed
+**Learning React 2nd Edition Page 128 of 310 completed
 . Passing state data from root component to child component via properties.
 .
 .
@@ -1119,8 +1119,11 @@ function App() {
 . using functions which are passed up the child components to root components with properties.
 . React Forms using ref/ useRef();
 
-
-
+**Learning React 2nd Edition Page 133 of 310 completed
+. Uncontrolled component -> where dom values are directly accessed via useRef and ref.
+. Controlled component -> dom values are updated indirectly with const [varname,setfn()] = useState().
+. Custom hooks
+. 
 
 
 
