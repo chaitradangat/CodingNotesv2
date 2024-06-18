@@ -1123,7 +1123,8 @@ function App() {
 . Uncontrolled component -> where dom values are directly accessed via useRef and ref.
 . Controlled component -> dom values are updated indirectly with const [varname,setfn()] = useState().
 . Custom hooks
-. 
+. React Context - context provider, context consumer
+. createContext();
 
 
 
