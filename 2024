@@ -1119,15 +1119,20 @@ function App() {
 . using functions which are passed up the child components to root components with properties.
 . React Forms using ref/ useRef();
 
-**Learning React 2nd Edition Page 133 of 310 completed
+**Learning React 2nd Edition Page 135 of 310 completed
 . Uncontrolled component -> where dom values are directly accessed via useRef and ref.
 . Controlled component -> dom values are updated indirectly with const [varname,setfn()] = useState().
 . Custom hooks
 . React Context - context provider, context consumer
 . createContext();
 
+**Learning React 2nd Edition Page 140 of 310 completed
+. export const ColorContext = createContext();
+. ColorContext.Provider, ColorContext.Consumer
+. const {colors} = useContext(ColorContext);
 
-
+*Creating custom context provider
+*Creating custom hooks 
 
 
 
