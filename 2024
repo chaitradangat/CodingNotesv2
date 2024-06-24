@@ -1134,7 +1134,15 @@ function App() {
 *Creating custom context provider
 *Creating custom hooks 
 
-**Learning React 2nd Edition Page 143 of 310 completed
+**Learning React 2nd Edition Page 150 of 310 completed
+. useEffect, useLayoutEffect, useReducer, useCallback, useMemo
+. used to change the component after the component has been completely rendered
+. things we want the component to do other than render UI are called effects.
+. dependency array in useEffect()
+. useEffect(() => {
+  console.log(`saved phrase: "${phrase}"`);
+  }, [phrase]);
+**Deep checking dependencies
 . 
 
 
