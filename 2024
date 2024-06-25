@@ -1,4 +1,4 @@
- d*Search for remote work in technical coding roles with higher pay.
+*Search for remote work in technical coding roles with higher pay.
 
 *Do not deviate from these key topics in 2024.
   UI : Angular,React,TypeScript,CSS
@@ -1147,8 +1147,17 @@ function App() {
 **Angular-Questions QNo. 9/283
 . 
 
-
-
+**Learning React 2nd Edition Page 70 of 310 completed
+. useMemo() and useCallback() are used to memoize the values based on input.
+. useMemo() and useCallback() can be used to avoid re-render when using useEffect() dependency array.
+. Browser paint : moment when the component elements are actually added to the DOM
+. memo()
+. shouldComponentUpdate()
+*Incorporating Data
+.
+.
+.
+.
 
 
 
