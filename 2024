@@ -1161,10 +1161,14 @@ function App() {
 . pending, success,failure promise
 . windowing using react-window package
 . Memo-izing values
-**Learning React 2nd Edition Page 199 of 310 completed.
+
+**Learning React 2nd Edition Page 208 of 310 completed.
 . Parallel requests
-
-
+. Cancelling Requests
+. useCallBack()
+. GraphQL API
+. npm i graphql-request
+. 
 
 
 
