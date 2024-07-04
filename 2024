@@ -1215,10 +1215,22 @@ function App() {
    </Suspense>
 . npm i react-spinners
 ** Building Suspenseful Data Sources
+. error handling with suspense pattern
+.  <Suspense fallback={}>
+    <ErrorBoundary>
+      <AnyReactComponent/>
+    </ErrorBoundary>
+   </Suspense>
+** Fiber: Reconciliation Algorithm
+**Learning React 2nd Edition Page 237 of 310 completed.
+. React Testing
+. The process of analyzing Javascript code is called hinting or linting
+. Prettier : opinionated code formatter
 .
 .
 .
-.
+
+
 
 
 
