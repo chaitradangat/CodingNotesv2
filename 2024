@@ -1205,14 +1205,21 @@ function App() {
   <App />
   </ErrorBoundary>;
 
-**Learning React 2nd Edition Page 220 of 310 completed.
+**Learning React 2nd Edition Page 230 of 310 completed.
 ** Code Splitting
+. Lazy loading :  const Main = React.lazy(() => import("./Main"));
 . 
-. 
-. 
-. 
-. 
-. 
+** Suspense Component
+.  <Suspense fallback={<ClimbingBoxLoader />}>
+   <Main />
+   </Suspense>
+. npm i react-spinners
+** Building Suspenseful Data Sources
+.
+.
+.
+.
+
 
 
 
