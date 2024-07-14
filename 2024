@@ -1226,13 +1226,19 @@ function App() {
 . React Testing
 . The process of analyzing Javascript code is called hinting or linting
 . Prettier : opinionated code formatter
-.
-.
-.
 
+**Azure App Service Plan
+. pricing tiers
+. deployment slots
+. deployment slot swapping
+. github actions
+. scale up scale down
+. webjobs
 
+**Azure Container Instances (ACI)
 
-
+. key value dataw
+. graph databases
 
 
 
