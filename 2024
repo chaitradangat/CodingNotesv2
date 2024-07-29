@@ -1267,3 +1267,25 @@ Implement Caching for Solutions
 
 **Activity log in redis cache for Azure lists all operations performed on the redis cache database.
 
+**Azure Content Delivery Network
+. Ideal for static content, can also be used with dynamic content.
+. Edge servers, point of presence locations.
+. Default TTL is 7 days.
+. Ideal for new product launch with heavy traffic to server / endpoint.
+
+*CDN Caching
+. Rule-based
+. Query string based caching
+. Cache-Control header with TTL value
+
+*CDN cache purging
+. az cdn endpoint purge \
+    --content-paths '/css/*' '/js/app.js' \
+    --name ContosoEndpoint \
+    --profile-name DemoProfile \
+    --resource-group ExampleGroup
+
+*Geofiltering - disallow content is specific regions or geography
+
+* 
+
