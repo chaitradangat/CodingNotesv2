@@ -1241,12 +1241,29 @@ function App() {
 . graph databases
 
 
-**https://learn.microsoft.com/en-us/training/paths/az-204-integrate-caching-content-delivery-within-solutions/
+***Important -> Complete all exercises from az-204 modules
+
+**https://learn.microsoft.com/en-us/credentials/certifications/azure-developer/?practice-assessment-type=certification
 Implement Caching for Solutions
-.
-.
-.
+* Types of Redis available on azure
+. Redis OSS
+. Redis Enterprise
 
+* Caching application patterns
+. Data cache / cache-aside
+. Content cache
+. Session store
+. Task queueing
+. Distributed Transactions
 
+*Tiers
+. Basic, Standard, Premium, Enterprise, Enterprise Flash.
 
+*
+. Redis cache name shud be unique.
+. The cache shud be located near the application region.
+
+* Hostname, port, access key.
+
+**Activity log in redis cache for Azure lists all operations performed on the redis cache database.
 
