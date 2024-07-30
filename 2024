@@ -1289,5 +1289,23 @@ Implement Caching for Solutions
 
 * CdnManagementClient 
 
+**Troubleshoot solutions by using Application Insights
+. Application Insights is an extension of Azure Monitor
+. Application Performance Monitoring (APM) features
+
+. Live Metrics, Availibility, Usage, Smart detection, Application Map, Distributed Tracing.
+. Type of Data : Metrics, Telemetry, Logs
+. Kusto queries
+. Preaggregated metrics - standard metrics
+. Detailed Metrics - Log based metrics
+*Availibility Tests 
+. OpenTelemetry
+. 100 availibility tests per application insights resource
+. Standard Test, Custom Trackavailibility() test, URL ping test, 
+
+*Application Map
+. Components, external dependencies.
+. Mapped via http calls made by resources with application insights enabled.
+. Cloud role name to distinguish or name the components in application map.
 
 
