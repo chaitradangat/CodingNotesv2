@@ -1327,7 +1327,10 @@ Implement Caching for Solutions
 . Receive delete, peek lock
 . Message = Payload + metadata
 
-
+*Azure Storage Queue
+. Storage Account, Queue, Messages
+. Default Message TTL is seven days
+. The read/ dequeued message must be deleted by consumer by sending delete command/request after reading the message
 
 
 
