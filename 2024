@@ -1309,3 +1309,28 @@ Implement Caching for Solutions
 . Cloud role name to distinguish or name the components in application map.
 
 
+**Develop message-based solutions
+*Azure Message Queues : Queues are usually used to create backlog of work to process asynchronously.
+. Azure Service Bus, Azure Storage Queue
+. Azure Messaging Infrastructure, Azure Storage Infrastructure
+
+*Azure Service Bus
+. Enterprise messaging solution
+. Message queues, publisher subscriber, topics
+. Messaging scenarios : Messaging, decouple applications, topics and subscription, Message sessions.
+. Basic, Standard, Premium tiers
+. Namespace-> Topic -> Queue
+. Dead letter queue, deferral queue
+. Duplicate detection
+. Uses AMQP, HTTP Rest protocol
+. Azure service bus entities : queue, topics, subscriptions, (rules & actions)
+. Receive delete, peek lock
+. Message = Payload + metadata
+
+
+
+
+
+
+
+
