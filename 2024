@@ -1332,8 +1332,23 @@ Implement Caching for Solutions
 . Default Message TTL is seven days
 . The read/ dequeued message must be deleted by consumer by sending delete command/request after reading the message
 
+**Develop event-based solutions
+. Azure Event Grid, Azure Event Hub
 
-
-
+*Azure Event Grid
+. No guarantee of sequence of events published by event grid, they can be out of order
+. Uses HTTP, MQTT (message queueing telemetry transport) protocol
+. Publisher(Application / event source) , Partners(Publish / Consume events), Events, Event Source, Topics, Subscription, Event Handlers
+. Max event size 1 MB increments of 64KB
+. Managed Identity, Event Hubs Data Sender Role, RBAC
+. Event Grid event schema, Cloud Event Schema
+  . Subject : path to resource where the event occured 
+. Dead letter queue
+. Retry policy based on : delivery attempts, event TTL
+. Output batching to improve efficiency
+. Delayed delivery
+. WebHooks
+. Filter events by : event type, subject, advanced fields or operators.
+. Exercise: Create topic, event subscriber, send event, read event using powershell
 
 
