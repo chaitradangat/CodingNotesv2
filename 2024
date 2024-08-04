@@ -1351,4 +1351,24 @@ Implement Caching for Solutions
 . Filter events by : event type, subject, advanced fields or operators.
 . Exercise: Create topic, event subscriber, send event, read event using powershell
 
+*Azure Event Hubs
+. BigData streaming, event ingestion service.
+. Supports AMQP, Apache Kafka, HTTP protocols.
+. Apache Kafka, Azure Schema Registry, Stream Analytics.
+*Azure Event Hubs key components
+. Producer application : application producing events which are ingested by the hub.
+. Namespace(can contain more than one hub)
+. Event Hub / Kafka Topic: can contain one or more partition
+. Partitions : used for scaling, parallel streaming of events
+. Consumer applications : Kafka consumer clients / Azure Event Hubs SDK clients reading by maintaining an offset.
+. Consumer group : logical grouping of comsumers having independent offsets.
+*Event Hubs Capture
+. Capture data in Apache Avro forma
+*Throughput Units
+* Control Access
+. Microsoft Entra ID, Shared Access Signature, Managed Identity,
+
+**AZ-204: Implement API Management
+
+
 
