@@ -1369,6 +1369,18 @@ Implement Caching for Solutions
 . Microsoft Entra ID, Shared Access Signature, Managed Identity,
 
 **AZ-204: Implement API Management
-. API Gateway, backend API, 
+. Jargon: API Gateway, backend API, Subscriptions, Product(group of related APIS), 
+. Components: API Gateway, Management Plane(Admin Interface), Developer Portal
+. Open product, Protected product(needs subscription to acceess APIs in the product)
+. Groups : Administrators, Developers, Guests.
+. Policies : executed on the request or response of the API, in form of text or expressions
+. Policy scope : Global, Product-specific, API-specific, API operation-specific
+*API Gateway(Data Plane)
+. Managed, Self hosted Gateway
+
+*Azure API Management Policies 
+.
+.
+.
 
 
