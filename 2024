@@ -1377,7 +1377,6 @@ Implement Caching for Solutions
 . Policy scope : Global, Product-specific, API-specific, API operation-specific
 *API Gateway(Data Plane)
 . Managed, Self hosted Gateway
-
 *Azure API Management Policies 
 . Policies are a collection of statements / configuration
 *Policy Definition or Configuration
@@ -1390,7 +1389,24 @@ Implement Caching for Solutions
     </policies>
 . Policy Expressions : C# code, context object
 . Policy scopes, local and api level
-. Advanced Policies : 
+. Advanced Policies : Control flow, forward request, limit concurrency, log to event hub, mock response, retry, return response
+*Secure API with subscription
+. Subscription based on keys, ip whitelisting, certificates,OAuth 2.0
+. Subscription scope : all api, product, single api
+. Verify certificate based on : Issuer, Subject, Thumbprint, Expiry date
+*Resource created is called Azure API Management in Azure.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
