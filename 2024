@@ -1379,8 +1379,18 @@ Implement Caching for Solutions
 . Managed, Self hosted Gateway
 
 *Azure API Management Policies 
-.
-.
-.
+. Policies are a collection of statements / configuration
+*Policy Definition or Configuration
+. inbound, backend, outbound, on-error
+    <policies>
+     <inbound/>
+     <outbound/>
+     <backend/>
+     <on-error/>
+    </policies>
+. Policy Expressions : C# code, context object
+. Policy scopes, local and api level
+. Advanced Policies : 
+
 
 
