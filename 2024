@@ -1396,12 +1396,26 @@ Implement Caching for Solutions
 . Verify certificate based on : Issuer, Subject, Thumbprint, Expiry date
 *Resource created is called Azure API Management in Azure.
 
+**Implement secure Azure solutions
+. Azure Key-vault, Managed Identity, Azure App Configuration.
 
-
-
-
-
-
+*Implement Azure key vault
+. Jargon : Keys(Encryption keys), Secret, Certificates , Vaults, HSM(Hardware Security Module)
+. Store and access secret.
+. Containers : Vault, HSM
+. Secrets Management, Key Management, Certificate Management
+. Tiers : Standard, Premium
+. Access : Microsoft Entra ID, RBAC, Azure Key Vault access policy, managed identity,.
+. Soft delete, purge protection.
+. 
+. 
+. 
+.
+. 
+. 
+.
+. 
+. 
 
 
 
