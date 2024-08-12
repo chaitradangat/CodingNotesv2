@@ -1407,13 +1407,15 @@ Implement Caching for Solutions
 . Tiers : Standard, Premium
 . Access : Microsoft Entra ID, RBAC, Azure Key Vault access policy, managed identity,.
 . Soft delete, purge protection.
-. 
-. 
-. 
-.
-. 
-. 
-.
+*Implement Managed Identities :  Removes the need to manually manage credentials.
+. Jargon: Azure Resource Manager, Microsoft Entra Tenant, Microsoft Entra ID, Azure Instance Metadata Service, Managed Identity Operator, Azure.Identity
+. User-assigned managed identity, system-assigned managed identity.
+. Request a JWT token by passing client ID and certificate, DefaultAzureCredential
+*DefaultCredentials are read from
+. environment, managed identity of the underlying resource, Visual Studio login, azure cli or powershell login, Interactive Login
+*ChainedTokenCredential: has fallback mechanism if primary call fails eg: var credential = new ChainedTokenCredential(new ManagedIdentityCredential(), new AzureCliCredential());
+
+*Implement Azure App Configuration
 . 
 . 
 
