@@ -1415,7 +1415,7 @@ Implement Caching for Solutions
 . environment, managed identity of the underlying resource, Visual Studio login, azure cli or powershell login, Interactive Login
 *ChainedTokenCredential: has fallback mechanism if primary call fails eg: var credential = new ChainedTokenCredential(new ManagedIdentityCredential(), new AzureCliCredential());
 
-*Implement Azure App Configuration
+*Implement Azure App Configuration : https://learn.microsoft.com/en-us/credentials/certifications/azure-developer/?practice-assessment-type=certification
 . 
 . 
 
