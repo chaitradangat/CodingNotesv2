@@ -1416,13 +1416,34 @@ Implement Caching for Solutions
 *ChainedTokenCredential: has fallback mechanism if primary call fails eg: var credential = new ChainedTokenCredential(new ManagedIdentityCredential(), new AzureCliCredential());
 
 *Implement Azure App Configuration : https://learn.microsoft.com/en-us/credentials/certifications/azure-developer/?practice-assessment-type=certification
-. 
-. 
-
-
-
-
-
-
-
-
+. Jargon : Encryption of information at rest, Encryption of information in transit.
+. Used to store less sensitive data unlike key-vault used to store secrets.
+. Centrally manage app configuration and  application features(feature flags).
+. Application Keys Hierarchy Representation
+  AppName:Service1:ApiEndpoint
+  AppName:Service2:ApiEndpoint
+. Key labels used for the same key across different environments or versions of the application.
+*Azure Application Feature Management using appsettings.json example 
+"FeatureManagement": {
+    "FeatureA": true, // Feature flag set to on
+    "FeatureB": false, // Feature flag set to off
+    "FeatureC": {
+        "EnabledFor": [
+            {
+                "Name": "Percentage",
+                "Parameters": {
+                    "Value": 50
+                }
+            }
+        ]
+    }
+}
+*Secure App configuration using
+. Customer-managed keys(not sure what this is), private endpoints, managed identities.
+*Private endpoint
+. The app configuration is access over internal(private) virtual network not available to the internet.
+. On-premise applications can access the endpoint only over a VPN, express route etc.
+*Managed Identities
+. System assigned managed identity, User assigned managed identity
+. az appconfig identity create --name <name> --resource-group <rgname>
+. az appconfig identity assign --name <name> --resource-group <rgname> --identities <path to user defined managed identities>
