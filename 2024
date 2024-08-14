@@ -1450,15 +1450,19 @@ Implement Caching for Solutions
 
 **Implement containerized solutions
 . Azure Container Registry, Azure Container Instances, Azure Container Apps.
-
-*Azure Container Registry
-. Jargon : ACR Tasks, Geo replication(multiple copies at different countries in same region), ACR Task Context
+* Azure Container Registry
+. Jargon : ACR Tasks, Geo replication(multiple copies at different countries in same region), ACR Task Context, Helm Chart
 . Store container images, automate builds and deployment.
 . Azure Container Registry(ACR) is a private docker registry.
 . ACR Tiers : Basic, Standard, Premium
 . ACR Tasks : Quick task, Auto triggered tasks, Multi step tasks
+. az acr build
+. az acr task create
+. az acr run
+* Run container images in Azure Container Instances
 . 
-
+.
+.
 
 
 
