@@ -1447,3 +1447,37 @@ Implement Caching for Solutions
 . System assigned managed identity, User assigned managed identity
 . az appconfig identity create --name <name> --resource-group <rgname>
 . az appconfig identity assign --name <name> --resource-group <rgname> --identities <path to user defined managed identities>
+
+**Implement containerized solutions
+. Azure Container Registry, Azure Container Instances, Azure Container Apps.
+
+*Azure Container Registry
+. Jargon : ACR Tasks, Geo replication(multiple copies at different countries in same region), ACR Task Context
+. Store container images, automate builds and deployment.
+. Azure Container Registry(ACR) is a private docker registry.
+. ACR Tiers : Basic, Standard, Premium
+. ACR Tasks : Quick task, Auto triggered tasks, Multi step tasks
+. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
