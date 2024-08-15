@@ -1460,11 +1460,14 @@ Implement Caching for Solutions
 . az acr task create
 . az acr run
 * Run container images in Azure Container Instances
-. 
-.
-.
-
-
+. Container engine as a service.
+. Container group : collection of containers which get scheduled on the same host.
+. Deployment : arm templates, yaml file.
+. az container create
+. containerized tasks
+. Container restart policy: Always, Never, OnFailure
+. Set Environment Variables : --env, secureValue parameter in yaml file
+. volumes
 
 
 
