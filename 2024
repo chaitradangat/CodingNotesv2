@@ -1468,8 +1468,33 @@ Implement Caching for Solutions
 . Container restart policy: Always, Never, OnFailure
 . Set Environment Variables : --env, secureValue parameter in yaml file
 . volumes
+* Implement Azure Container Apps
+. Jargon: Authentication Flow, server flow, client flow, revision-scope changes, Dapr (distributed application runtime)
+. Deploy applications on serverless platform that runs on top of Azure Kubernetes Service.
+. Serverless container service.
+. Scale based on KEDA supported scale trigger
+. Dapr Integration
+. az containerapp env create \
+    --name $myAppContEnv \
+    --resource-group $myRG \
+    --location $myLocation
+. az containerapp create \
+    --name my-container-app \
+    --resource-group $myRG \
+    --environment $myAppContEnv \
+    --image mcr.microsoft.com/azuredocs/containerapps-helloworld:latest \
+    --target-port 80 \
+    --ingress 'external' \
+    --query properties.configuration.ingress.fqdn
+. Configuration: arm template configuration, changes to it forces revision of container.
+. az containerapp update
+. az containerapp revision list
+. Secrets are at application scope and not at revision scope
+. Dapr integration with container apps
+. Dapr components : the container names in the scopes array define which component is loaded.
 
-
+**Develop solutions that use Azure Cosmos DB
+*
 
 
 
