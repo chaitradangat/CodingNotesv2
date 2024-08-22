@@ -1494,9 +1494,21 @@ Implement Caching for Solutions
 . Dapr components : the container names in the scopes array define which component is loaded.
 
 **Develop solutions that use Azure Cosmos DB
-*
-
-
+*Explore Azure Cosmos DB
+. Jargon : Request Units,
+. Globally distributed database system, supports multiple regions at once.
+. Hierarchy : Azure CosmosDB account -> Azure CosmosDB Database -> Azure CosmosDB container -> collection, table, graph.
+. Data is stored in one or more servers called partitions.
+. Physical partition 50 GB, Logical partition 20 GB.
+. Consistency levels : 
+  . Strong : highest consistency always latest data
+  . Bounded staleness : configurable lag between regions
+  . Session : single session write read consistency
+  . Consistent prefix : consistency maintained at transaction level
+  . Eventual consistency : weakest form only to be used for non-critical data such as likes, reshares, comments
+. Database APIs : NoSQL, MongoDB, Cassandra, PostgreSQL, Gremlin, Table
+* Work with Azure Cosmos DB
+. 
 
 
 
