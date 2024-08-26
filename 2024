@@ -1508,7 +1508,19 @@ Implement Caching for Solutions
   . Eventual consistency : weakest form only to be used for non-critical data such as likes, reshares, comments
 . Database APIs : NoSQL, MongoDB, Cassandra, PostgreSQL, Gremlin, Table
 * Work with Azure Cosmos DB
-. 
+. Client-side and Server-side programming with Azure Cosmos DB
+. Azure CosmosDB Account -> Azure CosmosDB Database -> Container* -> Item*
+. Container -> Collection, Graph, Table. Item -> Document, Edge, Row.
+. az group create --location <myLocation> --name az204-cosmos-rg
+. az cosmosdb create --name <myCosmosDBacct> --resource-group az204-cosmos-rg
+. az account list-locations -o table
+. az cosmosdb keys list --name <myCosmosDBacct> --resource-group az204-cosmos-rg
+. az group delete --name az204-cosmos-rg --no-wait
+. When defining a stored procedure in the Azure portal, input parameters are always sent as a string to the stored procedure. 
+. Stored Procedures, Stored Procedures with parameters, Transactions.
+. Triggers and User defined functions
+. Pre-triggers, Post-triggers
+. Change Feeds in Azure CosmosDB
 
 
 
