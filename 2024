@@ -1521,7 +1521,15 @@ Implement Caching for Solutions
 . Triggers and User defined functions
 . Pre-triggers, Post-triggers
 . Change Feeds in Azure CosmosDB
+. Change feed pull model and push model
+. Delete operations are not saved in change feed, use  soft delete with TTL instead
+. Azure function trigger for Azure Cosmos DB
+. Monitored container, lease container, compute instance, delegate(code)
 
+**Develop solutions that use Blob storage
+.
+.
+.
 
 
 
