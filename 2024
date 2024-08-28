@@ -1527,10 +1527,13 @@ Implement Caching for Solutions
 . Monitored container, lease container, compute instance, delegate(code)
 
 **Develop solutions that use Blob storage
-.
-.
-.
-
+* Explore Azure Blob storage
+. Blob storgae is used for saving large amount of unstructured data.
+. Azure Storage Account -> Container -> Blob
+. Tiers : Standard, Premium
+. Premium : block blobs, page blobs, file shares.
+. Access Tiers : Hot, Cool, Cold, Archive
+. 
 
 
 
