@@ -1528,13 +1528,38 @@ Implement Caching for Solutions
 
 **Develop solutions that use Blob storage
 * Explore Azure Blob storage
+. Jargon : Storage Account, Container, Blob
 . Blob storgae is used for saving large amount of unstructured data.
 . Azure Storage Account -> Container -> Blob
 . Tiers : Standard, Premium
 . Premium : block blobs, page blobs, file shares.
-. Access Tiers : Hot, Cool, Cold, Archive
-. 
+. Access Tiers : Hot, Cool, Cold, Archive(Tier)
+. https://<storage-account-name>.blob.core.windows.net/<container-name>
+. Blobs : block blobs, append blobs, page blobs
+. Block blobs : individually managed blobs
+. Append blobs : Block blobs optimized for appnding data
+. Page blobs : Random read and write eg. VHD format hard disk files
+. All blob data is encrypted at rest by default.
+. The encryption can be by microsoft managed keys, customer managed keys or customer provided keys.
+. Client-side encryption : the data is encrypted on client side using the .NET client SDK before it is being uploaded and is decrypted while the blob is being downloaded while reading.
+* Manage the Azure Blob storage lifecycle
+. Jargon : Rehydrate blob / data, Blob snapshots
+. Lifecycle Management: Rule based policy : set of rules defined in a json format
+. Can be appied at storage account, container, individual blob level
+. az storage account management-policy create
+. Archive tier is offline tier.
+. Rehydration Priority : x-ms-rehydrate-priority, Standard, High
+. Rehydrate blob by copying data to higher tier container/storage account, or modify the blob/container tier
+* Work with blob storage
+. BlobServiceClient, BlobContainerClient, BlobClient
 
+**AZ-204: Implement Azure Functions
+. Jargon : Hosting options, bindings, triggers
+* Explore Azure Functions
+. 
+.
+.
+.
 
 
 
