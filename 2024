@@ -1556,10 +1556,19 @@ Implement Caching for Solutions
 **AZ-204: Implement Azure Functions
 . Jargon : Hosting options, bindings, triggers
 * Explore Azure Functions
-. 
-.
-.
-.
+. Data processing, systems integration
+. Azure Functions, Logic Apps, Web Jobs
+. Triggers : to start execution of the function
+. Bindings : For input and output of data
+. Orchestration : Collection of functions or steps
+. Triggers
+  Timer
+  Azure Storage queues and blobs
+  Azure Service Bus queues and topics
+  Azure Cosmos DB
+  Azure Event Hubs
+  HTTP/WebHook
+  Azure Event Grid
 
 
 
