@@ -1554,7 +1554,7 @@ Implement Caching for Solutions
 . BlobServiceClient, BlobContainerClient, BlobClient
 
 **AZ-204: Implement Azure Functions
-. Jargon : Hosting options, bindings, triggers
+. Jargon : Hosting options, bindings, triggers, Azure Virtual Network, App Service Environment (ASE).
 * Explore Azure Functions
 . Data processing, systems integration
 . Azure Functions, Logic Apps, Web Jobs
@@ -1569,7 +1569,18 @@ Implement Caching for Solutions
   Azure Event Hubs
   HTTP/WebHook
   Azure Event Grid
+*Azure functions hosting options
+ . Consumption plan, flex consumption plan, premium plan, dedicated plan, container apps
+****Pending Revisit the various azure function hosting plans and differences between them.
 
+*Develop Azure Functions
+. 
+.
+.
+.
+.
+.
+.
 
 
 
