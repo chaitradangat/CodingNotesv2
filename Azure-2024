@@ -357,8 +357,8 @@ Implement Caching for Solutions
 . Create azure function locally : vscode, azure function extension, .net runtime, C# extension
 
 **Implement Azure App Service web apps
-.
-.
+*Examine Azure App Service
+. az webapp list-runtimes --os-type linux -o table
 .
 
 
