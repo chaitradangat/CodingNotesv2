@@ -345,19 +345,21 @@ Implement Caching for Solutions
 *Azure functions hosting options
  . Consumption plan, flex consumption plan, premium plan, dedicated plan, container apps
 ****Pending Revisit the various azure function hosting plans and differences between them.
-
 *Develop Azure Functions
-. jargon : attribute constructor
+. jargon : attribute constructor, principle of least privilage
 . A function app provides an execution context in Azure in which your functions run
 . host.json, local.settings.json(used only for local development of azure functions)
 . Triggers(single), Bindings(input output both multiple). 
 . Binding is way to declaratively connect another resource to function.
 . Binding direction
 *Connect functions to Azure services
-. 
+. Environment Variables in application settings(app service), local.settings.json, managed identity
+. Create azure function locally : vscode, azure function extension, .net runtime, C# extension
 
-
-
+**Implement Azure App Service web apps
+.
+.
+.
 
 
 
