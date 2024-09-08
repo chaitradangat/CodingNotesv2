@@ -442,12 +442,20 @@ Implement Caching for Solutions
 . Environment Variables in application settings(app service), local.settings.json, managed identity
 . Create azure function locally : vscode, azure function extension, .net runtime, C# extension
 
-**Implement Azure App Service web apps
+**Explore Azure App Service
 *Examine Azure App Service
 . az webapp list-runtimes --os-type linux -o table
-.
-
-
+. auto-scale, container support, ci-cd, deployment-slots, 
+*App service Plan
+. Set of compute, and other resources to run the application.
+. One or more applications can share the same apps ervice plan.
+. Tiers : Free, Shared, Basic, Standard, PremiumV1-3, IsolatedV1-2
+. Isolated Tier : Provides network isolation using Azure Virtual Network
+*Deployment
+. Automated, Manual
+. az webapp up
+*Authentication and Authorization
+. 
 
 
 
