@@ -1,5 +1,91 @@
 All Microsoft Azure related notes
 
+AZ 204 Azure Certification https://learn.microsoft.com/en-us/credentials/certifications/azure-developer/
+
+Azure app service
+
+*Autoscale
+ . Scale-up, Scale-down - increase or decrease cpu,ram,etc.
+ . Scale in - Scale out - increase or decrease number of instances.
+
+*Deployment slots
+ . Deployment slots are live apps with their own host names.
+
+*App service plan tiers - Standard appservice plan, etc
+ . An App Service plan defines a set of compute resources for a web app to run.
+
+code> Cloud shell command  az webapp list-runtimes --os-type linux
+
+*AZ-204: Implement Azure App Service web apps Unit 2 of 9 completed
+
+https://medium.com/@aayyash/authentication-in-angular-why-it-is-so-hard-to-wrap-your-head-around-it-23ea38a366de
+
+*Azure Cloud Shell
+
+App service plan
+  . Shared compute
+  . Dedicated compute
+  . Isolated
+
+code> az webapp up
+
+*Research more on* Multi-tenant application, Single Tenant Application
+
+Find outbound IPs
+code> 
+az webapp show \
+    --resource-group <group_name> \ 
+    --name <app_name> \ 
+    --query possibleOutboundIpAddresses \
+    --output tsv
+
+*Unit 7 of 9 remaining in  AZ-204: Implement Azure App Service web apps / Explore Azure App Service 
+
+https://github.com/INNVTV/NetCore-Clean-Architecture
+
+*Unit 8 of 8 (all) completed  AZ-204: Implement Azure App Service web apps / Configure web app settings 
+
+https://learn.microsoft.com/en-us/credentials/certifications/exams/az-204/
+
+Code to stream logs to azure cloud shell
+Code> az webapp log tail --name appname --resource-group myResourceGroup
+
+Intermediate certificates in the certificate chain.
+
+Hardware specifications are defined in the app service plan, which can then be used to scale in or scale out
+
+App Service Plan Tiers
+Standard 
+Premium 
+Isolated
+
+runaway autoscaling
+
+Autoscale conditions and metrics
+
+cpu percentage
+memory percentage
+disk queue length
+http queue length
+data in
+data out
+
+each metric has its own intrinsic time grain
+
+
+Time grain vs Duration
+
+what are webhooks
+
+Unit 8 of 8 (all) completed AZ-204: Implement Azure App Service web apps / Scale apps in Azure App Service
+
+Automatic routing for releasing test feature or beta feature to sample of production users
+x-ms-routing-name=staging
+x-ms-routing-name=self
+
+Unit 8 of 8 (all) completed AZ-204: Implement Azure App Service web apps / Explore Azure App Service deployment slots 
+
+
 **Azure App Service Plan
 . pricing tiers
 . deployment slots
