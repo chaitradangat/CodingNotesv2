@@ -6,7 +6,7 @@
   Version Control : Git
   CI CD : Azure DevOps
   Cloud : Azure
-  Automated Testing : NUnit, Playwright
+  Automated Testing : XUnit, Playwright
 
 *Find good study sources, video+pdf for the above topics.
 
