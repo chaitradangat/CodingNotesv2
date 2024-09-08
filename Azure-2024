@@ -443,6 +443,7 @@ Implement Caching for Solutions
 . Create azure function locally : vscode, azure function extension, .net runtime, C# extension
 
 **Explore Azure App Service
+. Jargon : App Service Environment (ASE)
 *Examine Azure App Service
 . az webapp list-runtimes --os-type linux -o table
 . auto-scale, container support, ci-cd, deployment-slots, 
@@ -455,9 +456,22 @@ Implement Caching for Solutions
 . Automated, Manual
 . az webapp up
 *Authentication and Authorization
-. 
-
-
+. Jargon : federated identity, client-flow, server-flow authentication, token store, Outbound networking feature, Inbound networking feature
+*App Service networking features
+. Outbound Features : 
+. Inbound Features : 
+. Find outbound addresses
+  az webapp show \
+    --resource-group <group_name> \
+    --name <app_name> \ 
+    --query outboundIpAddresses \
+    --output tsv
+. Find outbound addresses for irrespective of the app service plan tier
+  az webapp show \
+    --resource-group <group_name> \ 
+    --name <app_name> \ 
+    --query possibleOutboundIpAddresses \
+    --output tsv
 
 
 
