@@ -1,3 +1,4 @@
-*Dockerize visual studio project
-*Build docker file using vs tools, command prompt
-*Create new CI CD pipeline
+*Dockerize visual studio project - done
+*Build docker file using vs tools - done
+*Build docker file using command prompt - pending
+*Create new CI CD pipeline - pending
