@@ -1,4 +1,31 @@
-*Angular Question 10> of 283
+*Angular Question 26> of 283
 Component, Module, Template, Service, Metadata
-
 Directive : used to add behavior to existing dom element
+Investigate - @View decorator
+
+*LifeCycle Hooks
+. Constructor - used to setup DI and class properties.
+. ngOnInit - used to resolve bindings.
+
+*Data Binding
+ From Component to DOM
+ . Interpolation - {value}
+ . Property Binding - [property] = 'value'
+ From DOM to Component
+ . Event Binding - (event) = 'function'
+ Two Way Binding
+ . [(ngModel)] = 'value'
+
+*MetaData / Decorators
+. Class Decorators - @Component, @NgModule
+. Property Decorators - @Input, @Output
+. Method Decorators - decorator for methods - @HostListener
+. Parameter Decorators - used inside constructor with parameters - @Inject, @Optional
+
+*Pipe
+. async pipe - used along with observable
+
+*Directive
+. ngFor
+. ngIf
+. 
