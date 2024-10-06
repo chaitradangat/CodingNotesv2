@@ -2,18 +2,8 @@
   UI : Angular,React,TypeScript,CSS
   DotNet Core, EF Core
   Version Control : Git
-  CI CD : Azure DevOps
+  CI CD : Azure DevOps(Devopsshack course)
   Cloud : Azure
   Automated Testing : XUnit, Playwright
 
-*CI CD : Devopsshack course
-
-*Find good study sources, video+pdf for the above topics.
-
 *Complete the certifications for Azure cloud by December 2024.
-
-Green Blue Deployment method
-
-git config --global --add safe.directory
-
-

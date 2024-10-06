@@ -13,3 +13,5 @@
 2. Microservices -
 3. With Azure native services - 
 4. CI-CD pipelines - 
+
+git config --global --add safe.directory
