@@ -1,4 +1,4 @@
-*Angular Question 26> of 283
+*Angular Question 35> of 283
 Component, Module, Template, Service, Metadata
 Directive : used to add behavior to existing dom element
 Investigate - @View decorator
@@ -24,6 +24,8 @@ Investigate - @View decorator
 
 *Pipe
 . async pipe - used along with observable
+. parameterized pipe - birthday | date:'dd/MM/yyyy'
+. pure pipe, impure pipe
 
 *Directive
 . ngFor
