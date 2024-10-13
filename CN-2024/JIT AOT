@@ -1,0 +1,36 @@
+https://blog.nrwl.io/angular-is-aot-worth-it-8fa02eaf64d4
+
+
+I was really confused with what actually is being compiled as in all the cases, TS --> JS conversion happens. 
+
+I am taking some para from Jeff's blog as a reference.
+
+JIT
+The TS code written by the developer is compiled to JS code. Now, this compiled js code is compiled by browser again so that the html can be rendered dynamically as per the user action and accordingly codes for angular ( for components, change detection, Dependency Injection) are also generated at runtime.
+
+(The browser compiler is what takes an application’s directives and components, along with their corresponding HTML and CSS, and creates component factories to quickly stamp out instances with all of their view creation logic.)
+
+When an Angular 2 application is bootstrapped in the browser, the JIT compiler performs a lot of work to analyze the components in the application at runtime and generate code in memory. When the page is refreshed, all the work that has been done is thrown away, and the JIT compiler does the work all over again.
+
+AOT
+The TS code written by the developer is compiled to JS code, this js has already been compiled for angular as well. Now, this compiled js code is compiled by the browser again so that the html can be rendered. But, the catch here is that the features of angular have already been taken care of by AOT compiler and hence the browser don't have to worry much about component creation, change detection, Dependency Injection. So, we have :
+
+Faster rendering
+
+With AOT, the browser downloads a pre-compiled version of the application. The browser loads executable code so it can render the application immediately, without waiting to compile the app first.
+
+Fewer asynchronous requests
+
+The compiler inlines external HTML templates and CSS style sheets within the application JavaScript, eliminating separate ajax requests for those source files.
+
+Smaller Angular framework download size
+
+There's no need to download the Angular compiler if the app is already compiled. The compiler is roughly half of Angular itself, so omitting it dramatically reduces the application payload.
+
+Detect template errors earlier
+
+The AOT compiler detects and reports template binding errors during the build step before users can see them.
+
+Better security
+
+AOT compiles HTML templates and components into JavaScript files long before they are served to the client. With no templates to read and no risky client-side HTML or JavaScript evaluation, there are fewer opportunities for injection attacks.
