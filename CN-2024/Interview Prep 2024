@@ -1,4 +1,4 @@
-*Angular Question 112> of 283
+*Angular Question 126> of 283
 Component, Module, Template, Service, Metadata
 Directive : used to add behavior to existing dom element
 Investigate - @View decorator
@@ -45,5 +45,11 @@ Investigate - @View decorator
 .RouterModule, Route, RouterState, ActivatedRoute
 
 *Service Worker
+*Web Worker
+. ng generate web-worker app
 
 More Angular Tutorials :  https://www.geeksforgeeks.org/what-is-aot-and-jit-compiler-in-angular/
+
+*Angular appshell
+. used to generate static cacheable html/code usch as page layout
+
