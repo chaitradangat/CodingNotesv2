@@ -45,3 +45,5 @@ Investigate - @View decorator
 .RouterModule, Route, RouterState, ActivatedRoute
 
 *Service Worker
+
+More Angular Tutorials :  https://www.geeksforgeeks.org/what-is-aot-and-jit-compiler-in-angular/
