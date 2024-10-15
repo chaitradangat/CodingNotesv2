@@ -1,4 +1,4 @@
-*Angular Question 167> of 283
+*Angular Question 206> of 283
 Component, Module, Template, Service, Metadata
 Directive : used to add behavior to existing dom element
 Investigate - @View decorator
@@ -32,7 +32,7 @@ Investigate - @View decorator
 . ngIf
 . 
 
-*Angular Eelements
+*Angular Elements
 *Dynamic Components
 
 *Directives
