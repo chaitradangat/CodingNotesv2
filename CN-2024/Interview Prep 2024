@@ -1,4 +1,4 @@
-*Angular Question 126> of 283
+*Angular Question 167> of 283
 Component, Module, Template, Service, Metadata
 Directive : used to add behavior to existing dom element
 Investigate - @View decorator
@@ -51,5 +51,10 @@ Investigate - @View decorator
 More Angular Tutorials :  https://www.geeksforgeeks.org/what-is-aot-and-jit-compiler-in-angular/
 
 *Angular appshell
-. used to generate static cacheable html/code usch as page layout
+. used to generate static cacheable html/code such as page layout
 
+*Subject : Multicast Observable
+
+*Dynamic Imports, Main Module, Feature Module
+
+*
