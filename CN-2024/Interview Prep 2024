@@ -1,4 +1,4 @@
-*Angular Question 206> of 283
+*Angular Question 243> of 283
 Component, Module, Template, Service, Metadata
 Directive : used to add behavior to existing dom element
 Investigate - @View decorator
@@ -57,4 +57,7 @@ More Angular Tutorials :  https://www.geeksforgeeks.org/what-is-aot-and-jit-comp
 
 *Dynamic Imports, Main Module, Feature Module
 
-*
+*Sharing Modules
+. Declaration Array
+. Imports Array
+. Providers Array
