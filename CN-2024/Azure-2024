@@ -474,7 +474,8 @@ Implement Caching for Solutions
     --name <app_name> \ 
     --query possibleOutboundIpAddresses \
     --output tsv
-
+*Key-Vault
+https://learn.microsoft.com/en-us/azure/azure-app-configuration/use-key-vault-references-dotnet-core
 
 
 
