@@ -474,9 +474,10 @@ Implement Caching for Solutions
     --name <app_name> \ 
     --query possibleOutboundIpAddresses \
     --output tsv
+
 *Key-Vault
 https://learn.microsoft.com/en-us/azure/azure-app-configuration/use-key-vault-references-dotnet-core
-
+https://stackoverflow.com/questions/75523762/how-to-use-azure-key-vault-from-localhost-using-vs2022
 
 
 
