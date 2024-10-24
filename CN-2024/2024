@@ -1,9 +1,24 @@
 *Do not deviate from these key topics in 2024.
-  UI : Angular,React,TypeScript,CSS
-  DotNet Core, EF Core
-  Version Control : Git
-  CI CD : Azure DevOps(Devopsshack course)
-  Cloud : Azure
-  Automated Testing : XUnit, Playwright
+ UI: 
+ Angular - done
+ TypeScript - done
+ React - *
+ Tailwind, CSS - *
 
-*Complete the certifications for Azure cloud by December 2024.
+ Backend:
+ DotNet Core - done
+ EF Core - done
+ Version Control : Git - done
+
+ CI CD : 
+ Azure DevOps(Devopsshack course) - 
+  
+ Cloud : 
+ Azure - *
+  
+ Automated Testing : 
+ XUnit - 
+ Playwright - 
+
+ Certifications :
+ AZ 204 - *
