@@ -1,0 +1,13 @@
+https://medium.com/capital-one-tech/10-microservices-design-patterns-for-better-architecture-befa810ca44e
+
+Microservices Design Patterns - 
+. Saga : Choreograpy, Orchestrator
+. Decomposition : Domain Driven Design, Business Capability-Functionality
+. Circuit Breaker
+. Publisher Subscriber (PubSub)
+. Strangle Figg
+. Shared Database Pattern
+. API Gateway
+. Aggregator
+. CQRS
+. Event Sourcing
