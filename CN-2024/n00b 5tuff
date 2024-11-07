@@ -1,0 +1,14 @@
+Http Methods https://testfully.io/blog/http-methods/
+- also called as Http Verbs
+ 
+Method	Summary	                                          CRUD	  Accepts Request Body	Idempotnent	 Safe
+GET	    To fetch a single resource or group of resources	Read	  No	                  Yes	         Yes
+PUT	    To update an entire resource in one go	          Update	Yes	                  Yes	         No
+POST	  To create a new resource	                        Create	Yes	                  No	         No
+PATCH	  To partially update a resource	                  Update	Yes	                  No	         No
+DELETE	To delete a resource	                            Delete	No	                  Yes	         No
+OPTIONS	To get information on permitted operations	      Read	  No	                  Yes	         Yes
+HEAD	  To get metadata of the endpoint	                  Read	  No	                  Yes	         Yes
+TRACE	  For diagnosing purposes	                          Read	  No	                  Yes	         Yes
+CONNECT	To make the two-way connection between the client 
+        and the resource.	-	                              -       No	                  No	         No
