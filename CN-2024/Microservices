@@ -11,3 +11,7 @@ Microservices Design Patterns -
 . Aggregator
 . CQRS
 . Event Sourcing
+
+
+JWT Authentication
+https://positiwise.com/blog/jwt-authentication-in-net-core
